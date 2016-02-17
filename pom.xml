@@ -47,7 +47,7 @@
         <module>modules/org.wso2.stratos.appserver.dashboard.ui</module>
         <module>modules/p2-profile-gen</module>
         <module>modules/distribution</module>
-        <module>modules/integration</module>
+        <!--module>modules/integration</module-->
     </modules>
 
     <dependencyManagement>
@@ -738,6 +738,11 @@
         <version.axis2.jibx>${orbit.version.axis2}</version.axis2.jibx>
         <axis2.jaxb.version>${orbit.version.axis2}</axis2.jaxb.version>
         <axis2.version>${orbit.version.axis2}</axis2.version>
+        
+        <caramel.feature.version>1.0.1</caramel.feature.version>
+        <handlebars.feature.version>1.0.0</handlebars.feature.version>
+        <markdown.feature.version>1.0.0</markdown.feature.version>
+        <shindig.feature.version>1.0.1</shindig.feature.version>
 
         <tomcat.orbit.version>7.0.59.wso2v3</tomcat.orbit.version>
         <orbit.version.tomcat.jsp.api>7.0.59.wso2v1</orbit.version.tomcat.jsp.api>
